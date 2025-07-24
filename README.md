@@ -4,12 +4,7 @@ This project predicts **lung cancer severity levels** using a machine learning m
 
 ---
 
-## 🎮 Demo Video
 
-📺 **Watch Demo on YouTube**  
-👉 [Click here to watch the demo](https://www.youtube.com/watch?v=your-demo-video-link) *(Replace with actual link)*
-
----
 
 ## 📌 Features
 
