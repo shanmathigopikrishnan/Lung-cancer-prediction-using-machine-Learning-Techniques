@@ -13,8 +13,8 @@ This project predicts **lung cancer severity levels** using a machine learning m
 
 ## 📌 Features
 
-👉 Predicts **lung cancer severity** (Low / Medium / High)
-🧠 Trains a **Random Forest** ML model
+👉 Predicts **lung cancer severity** (Low / Medium / High) 
+🧠 Trains a **Random Forest** ML model 
 📁 Uses 18+ key features like **Smoking**, **Shortness of Breath**, **Chest Pain**, etc.
 📊 Achieves high accuracy (100% in this dataset)
 📄 Exports model as `.pkl` file
