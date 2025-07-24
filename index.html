@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lung Cancer Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Lung Cancer Prediction</h2>
+        <form action="/predict" method="post">
+            {% for label in [
+              'Patient Id','Age','Gender','Air Pollution','Alcohol use','Dust Allergy',
+              'OccuPational Hazards','Genetic Risk','chronic Lung Disease','Fatigue',
+              'Weight Loss','Shortness of Breath','Wheezing','Swallowing Difficulty',
+              'Clubbing of Finger Nails','Frequent Cold','Dry Cough','Snoring'] %}
+              
+              <label>{{ label }}:</label>
+              <input type="number" name="{{ label }}" required>
+            {% endfor %}
+            <input type="submit" value="Predict">
+        </form>
+
+        {% if prediction_text %}
+          <h3>{{ prediction_text }}</h3>
+        {% endif %}
+    </div>
+</body>
+</html>
