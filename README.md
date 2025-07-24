@@ -1,4 +1,3 @@
-````markdown
 # 📁 Lung Cancer Prediction – Machine Learning Project
 
 This project predicts **lung cancer severity levels** using a machine learning model trained on patient health data. It uses a **Random Forest Classifier** to classify risk based on symptoms, habits, and genetic/medical history.
