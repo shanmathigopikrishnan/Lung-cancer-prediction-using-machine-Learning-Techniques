@@ -1,23 +1,23 @@
-# 🩺 Lung Cancer Prediction – Machine Learning Project
+# 📁 Lung Cancer Prediction – Machine Learning Project
 
 This project predicts **lung cancer severity levels** using a machine learning model trained on patient health data. It uses a **Random Forest Classifier** to classify risk based on symptoms, habits, and genetic/medical history.
 
 ---
 
-## 🎬 Demo Video
+## 🎮 Demo Video
 
 📺 **Watch Demo on YouTube**
-👉 [Click here to watch the demo](https://www.youtube.com/watch?v=your-demo-video-link) *(Replace with actual link)*
+👉 [Click here to watch the demo](https://www.youtube.com/watch?v=your-demo-video-link)
 
 ---
 
 ## 📌 Features
 
-✅ Predicts **lung cancer severity** (Low / Medium / High)
+👉 Predicts **lung cancer severity** (Low / Medium / High)
 🧠 Trains a **Random Forest** ML model
 📁 Uses 18+ key features like **Smoking**, **Shortness of Breath**, **Chest Pain**, etc.
-📈 Achieves high accuracy (100% in this dataset)
-💾 Exports model as `.pkl` file
+📊 Achieves high accuracy (100% in this dataset)
+📄 Exports model as `.pkl` file
 🌐 Ready for web integration using Flask/Streamlit
 
 ---
@@ -103,7 +103,7 @@ print("Accuracy:", accuracy_score(y_test, y_pred))
 * 🧪 Use more diverse & real-world datasets
 * 📊 Add EDA & data visualizations
 * 🧮 Add hyperparameter tuning
-* 🖥 Deploy as web app (Flask / Streamlit)
+* 🖥️ Deploy as web app (Flask / Streamlit)
 
 ---
 
